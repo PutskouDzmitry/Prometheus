@@ -10,6 +10,7 @@ Application for get books with such operations as in table below:
 | /books/{id}              | GET    | get book by the id                 | ```{"BookId":1,"AuthorId":2,"PublisherId":1,"NameOfBook":"Belka","YearOfPublication":"2020-10-10", "BookVolume":20, "Number":1}```                                                                                                                                  |
 | /books/{id}/{unit_price} | PUT    | update book's price by the id |                                                                                                                                                                                                                                  |
 | /books/{id}              | DELETE | delete book by the id              |                                                                                                                                                                                                                                  |
+| /prometheus              | GET    | Outpuy metrics                     |                                               |
 
 ## Usage 
 1. Run server on port `8080`
